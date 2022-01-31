@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+header{
+    background-image: url(../Creative_Digital_Agencies_PSD_/head_fon.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+nav,
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    padding: 10px 28px;
+}
+.menu li a {
+    text-decoration: none;
+    color:white;
+    
+}
+ a{
+    color: white;
+    padding: 5px 15px;
+}
+.menu li a:hover{
+    border-bottom: 5px solid blue;
+    padding-bottom: 30px;
+}
+.blog{
+    width: 500px;
+    height: 200px;
+    margin: 200px auto;
+
+}
+
+.blog .title1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 900px;
+
+
+}
+.blog .text1{
+    text-transform: uppercase;
+    color: rgb(40, 40, 187);
+    letter-spacing: 10px;
+    font-size: 16px;
+    word-spacing: 6px;
+}
+.span{
+    width: 80px;
+    padding-bottom: 35px;
+    color: white;
+    margin: 0 auto;
+}
+.scrol{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+.text2{
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+a i{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 20px;
+    left: 110px;
+    margin-top: 15 px;
+   
+}
+main{
+    height: 800px;
+    background-color: rgb(18, 110, 248);
+    color: white;
+}
+.W{
+    font-size: 35px;
+ position: relative;
+ left: 320px;
+ bottom: 50px;
+}
+.W::before{
+    content: 'w';
+    font-size: 250px;
+    opacity: .2;
+    z-index: 1;
+    color: white;
+    position: relative;
+    top: 50px;
+    left:350px;
+}
+.box{
+    width: calc(100% / 4 - 20px);
+    height:100px;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-left: 45px;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1 00px;
+}
+.box i{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 40px;
+    left: 190px;
+    background-color: skyblue;
+    opacity: .4;
+    color: white;
+    margin-top: 350px;
+}
+.box h3{
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.box p{
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+  padding-top: 20px;
+  color: white;
+  justify-content: space-around;
+ 
+}
+section .box2{
+    width: 50%;
+    height: 420px;
+    float: left;
+}
+.box2:nth-child(1){
+   background-color: black;
+   color: white;
+   padding: 50px;
+}
+.box2 img{
+    width: 100%;
+    height: 420px;
+}
+.box2:nth-child(4){
+ background-color: grey;
+ color: white;
+ opacity: .7;
+ padding: 50px;
+}
+.blog2{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    color: black;
+}
+.B{
+    font-size: 35px;
+    margin-left: 130px;
+    margin-top: 1px;
+}
+.B::before{
+    content: 'B';
+    font-size: 240px;
+    opacity: .2;
+    z-index: 1;
+    color: black;
+    position: relative;
+    left: 170px;
+    top: 60px;
+
+}
+.clear{
+    clear: both;
+}
+.blog2 h2{
+    position: relative;
+   left: 300px;
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.box5{
+    width: calc(100% / 4 - 10px);
+    float: left;
+    margin-left: 10px;
+}
+.blog_text{
+    width: 90%;
+    text-align: justify;
+}
+.box5 .img4{
+    width:90%;
+}
+.section2{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 119, 255);
+    margin-top: 150px;
+}
+.blog3{
+    width:100%;
+    display: inline-block;
+    margin-top: 60px;
+}
+.blog3 i{
+    left: 150px;
+    float: left;
+    color: white;
+}
+.blog3_text {
+    width: 40%;
+    float: left;
+    color:white;
+    margin: 0 20px ;
+}
+.main_1{
+    width: 100%;
+    height:800px;
+    background-image:url(../Creative_Digital_Agencies_PSD_/Layer\ 87.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.box6{
+    width: calc(100% / 2 -  10px);
+    float: left;
+}
+.matn1{
+    padding-top: 200px;
+    padding-left: 150px;
+}
+.text_1{
+    padding-top: 25px;
+    padding-left: 150px;
+    width: 85%;
+}
+.box6 .fully{
+    width: 400px;
+    height: 25px;
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 25px 160px;
+    background-color:rgb(0, 119, 255);
+}
+.box6 .high{
+    width: 400px;
+    height: 25px;
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 25px 180px;
+    background-color:rgb(0, 119, 255);
+}
+.box6 .diff{
+    width: 400px;
+    height: 25px;
+    text-transform: uppercase;
+    margin: 25px 200px;
+    background-color:rgb(0, 119, 255);
+}
+.ayfon{
+    width: 350px;
+    margin-left: 500px;
+    padding-top: 100px;
+    margin: 0 100px;
+    float: left;
+}
+.Section_1{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    color: black;
+}
+.T{
+    font-size: 35px;
+    margin-left: 450px;
+    
+}
+.T::before{
+    content: 'T';
+    font-size: 240px;
+    opacity: .2;
+    z-index: 1;
+    color: black;
+    position: relative;
+    left: 170px;
+    top: 60px;
+}
+.p_ {
+    font-size: 30px;
+   margin-left: 400px;
+   margin-top: 85px;
+}
+.box__{
+    width: calc( 100% / 4 -10px);
+ 
+    float: left;
+    margin: 30px 0px 0 40px;
+}
+.box__ .img_1{
+    width:300px;
+    height: 400px;
+
+}
+.box__ .img_2{
+    width:300px;
+    height: 400px;
+
+}
+.box__ .img_3{
+    width:300px;
+    height: 400px;
+
+}
+.box__ .img_4{
+    width:300px;
+    height: 400px;
+
+}
+.box__ .h3_{
+    position: relative;
+    margin-top: -25px;
+    text-align: center;
+    color: rgb(0, 119, 255);
+    background-color: white;
+    left: 15px;
+    margin-right: 35px;
+}
+.box__ .h5_{
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+}
+.main__2{
+    width: 100%;
+    height: 900px;
+    margin-top: 220px;
+    background-image: url(../Creative_Digital_Agencies_PSD_/Layer\ 97.png);
+}
+.C{
+    font-size: 35px;
+    padding-top: 60px;
+    padding-left: 140px;
+}
+.C::before{
+    content:'C';
+ font-size: 220px;
+ opacity: .2;
+ z-index: 1;
+ position: relative;
+ left: 40%;
+ top: 55px;
+}
+/* input{
+
+    width: 400px;
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+    z-index: 1;
+    
+
+} */
+.Name{
+width: 400px;
+height: 40px;
+border: 1px solid white;
+margin: 120px 20px;
+float: left;
+}
+.massage1_{
+    width:700px;
+    height: 500px;
+    border: 1px solid white;
+    margin: 15px 35px;
+    padding: 15px 1024px 140px 15px;
+}
+.sbtn_1{
+    width: 200px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 190px;
+    margin-left: 500px;
+}
+.sctn_2{
+    width: 100%;
+    height: 400px;
+    background-image: url(../Creative_Digital_Agencies_PSD_/Layer\ 98.png);
+    background-repeat: no-repeat;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(5, 4, 4, 0.774);
+    color: white;
+}
+._h5_{
+    position:relative;
+    float: left;
+    padding: 50px 200px;
+}
